@@ -1,6 +1,6 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Spatial Women'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
@@ -20,17 +20,17 @@ collections:
   team:
     output: true
 
-defaults:
-  - scope:
-      path: ""
-      type: "services"
-    values:
-      layout: "service"
-  - scope:
-      path: ""
-      type: "team"
-    values:
-      layout: "team"
+#defaults:
+#  - scope:
+#      path: ""
+#      type: "services"
+#    values:
+#      layout: "service"
+#  - scope:
+#      path: ""
+#      type: "team"
+#    values:
+#      layout: "team"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
