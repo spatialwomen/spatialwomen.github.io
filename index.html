@@ -1,0 +1,76 @@
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+        <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+          <h1 id="title">SpatialW</h1>
+          <p>
+           Spatial Women aims to network with female researchers in the spatial field, organize networking events at conferences, and offer career development mentoring and invited talks from senior female researchers.
+          </p>
+        </div>
+    </div>
+  </div>
+</div>
+
+{% if site.data.features %}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-center">
+
+      {% for feature in site.data.features %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if feature.image %}
+          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content">{{ feature.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="container pt-6 pb-6">
+    <div class="row">
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+                <div class="team-image">
+                    <img width="90" height="90" alt="Jina Kim" class="img-fluid mb-2" src="https://jina-kim.github.io/static/img/profile.jpg">
+                </div>
+
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="/team/peter-van-eijk/">Jina Kim</a></h2>
+                    <p class="team-description">Organizer</p>
+
+                    <a target="_blank" href="https://jina-kim.github.io/" rel="noreferrer">Webpage</a>
+
+                </div>
+                <div class="team-content"><p>Jina Kim is a PhD student in the Computer Science & Engineering Department at the University of Minnesota. Her research mainly focuses on building technologies to bring artificial intelligence and its users together to effectively and efficiently use spatial text. </p></div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 mb-2">
+            <div class="team team-summary team-summary-large">
+
+                <div class="team-image">
+                    <img width="90" height="90" alt="Min Namgung" class="img-fluid mb-2" src="https://minnamgung.github.io/assets/img/min4.jpg">
+                </div>
+
+                <div class="team-meta">
+                    <h2 class="team-name"><a href="/team/sage-kirk/">Min Namgung</a></h2>
+                    <p class="team-description">Organizer</p>
+
+                    <a target="_blank" href="https://minnamgung.github.io/" rel="noreferrer">Webpage</a>
+
+                </div>
+                <div class="team-content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn...</p></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
