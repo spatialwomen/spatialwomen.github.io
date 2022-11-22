@@ -547,7 +547,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 50%;
+        left: 54%;
     }
 
     .timeline>li {
@@ -564,8 +564,8 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image {
         left: 50%;
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         margin-left: -50px;
     }
 
@@ -577,7 +577,7 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
-        padding: 0 30px 20px 20px;
+        padding: 0 30px 20px 50px;
         text-align: left;
     }
 }
@@ -588,13 +588,13 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
+        padding: 0 40px 20px;
     }
 
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
+        width: 200px;
+        height: 200px;
+        margin-left: -90px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -640,7 +640,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
-    width: 50%;
+    width: 200px;
 }
 
 .team-member h4 {
