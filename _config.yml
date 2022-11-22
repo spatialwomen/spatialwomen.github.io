@@ -1,51 +1,53 @@
-baseurl: '/'
+url: http://spatialwomen.github.io/
+baseurl: /
+
+# Site settings
+title: Spatial Women
+email: your-email@domain.com
+description: An official website for SpatialW
+
+# Team names, titles and social links
+people:
+- name: Jina Kim
+  pic: 1
+  position: Organizer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Min Namgung
+  pic: 2
+  position: Organizer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket 
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
+
+# Build settings
+markdown: kramdown
 permalink: pretty
-title: 'Spatial Women'
-
-logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
-
-home: 
-  limit_services: 6
-
-collections:
-  services:
-    output: true
-    sort_by: weight
-  team:
-    output: true
-
-#defaults:
-#  - scope:
-#      path: ""
-#      type: "services"
-#    values:
-#      layout: "service"
-#  - scope:
-#      path: ""
-#      type: "team"
-#    values:
-#      layout: "team"
-
-sass:
-  style: compressed # possible values: nested expanded compact compressed
-
-plugins:
-  - jekyll-environment-variables
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - LICENSE.md
-  - LICENSE
-  - README.md
