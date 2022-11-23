@@ -183,7 +183,6 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-brand:hover,
@@ -274,9 +273,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
+    background-color: #{{ site.data.template.color.primary }};
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
