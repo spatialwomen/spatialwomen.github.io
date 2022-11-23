@@ -61,6 +61,12 @@ h6 {
     margin: 0 auto;
 }
 
+.img-circle {
+    border-radius: 20%;
+    width: 300px;
+    margin-left: 50px;
+}
+
 .bg-light-gray {
     background-color: #f7f7f7;
 }
