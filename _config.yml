@@ -10,7 +10,7 @@ description: An official website for SpatialW
 people:
 - name: Jina Kim
   pic: 1
-  position: Organizer
+  position: SpatialW Board of Directors | Web Master
   social:
     - title: home
       url: https://jina-kim.github.io/
@@ -19,12 +19,20 @@ people:
 
 - name: Min Namgung
   pic: 2
-  position: Organizer
+  position: SpatialW Board of Directors | Treasurer Chair
   social:
     - title: home
       url: https://minnamgung.github.io/
     - title: twitter
       url: https://twitter.com/min__namgung/
+
+- name:
+  pic:
+  position: SpatialW Board of Directors | Sponsor Chair
+
+- name:
+  pic:
+  position: SpatialW Board of Directors | Publicity Chair
 
 # Build settings
 markdown: kramdown
