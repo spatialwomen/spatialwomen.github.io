@@ -34,10 +34,17 @@ people:
   pic:
   position: SpatialW Board of Directors | Publicity Chair (TBD)
 
+members:
+- name: Jina Kim
+
+- name: Jina Kim
+
+- name: Jina Kim
+
+- name: Jina Kim
+
+- name: Jina Kim
+
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-collections:
-  members:
-    output: true
