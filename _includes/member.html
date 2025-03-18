@@ -7,10 +7,10 @@
                 <h3 class="section-subheading text-muted"></h3>
             </div>
         </div>
-        <div class="row">
+        <div class="row d-flex justify-content-center flex-wrap">
             {% for member in site.members %}
-            <div class="col-sm-2">
-                <p style="color: #777; text-align: center;">{{ member.name }}</p>
+            <div class="col-md-3 col-sm-4 col-xs-6 text-center mb-4">
+                <p style="color: #777; font-weight: bold;">{{ member.name }}</p>
                 <p style="color: #aaa; font-size: 0.9em;">{{ member.affiliation }}</p>
             </div>
             {% endfor %}
