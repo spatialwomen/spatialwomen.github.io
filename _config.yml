@@ -14,8 +14,8 @@ people:
   social:
     - title: home
       url: https://jina-kim.github.io/
-    - title: twitter
-      url: https://twitter.com/jina_kimmm/
+    - title: linkedin
+      url: https://www.linkedin.com/in/jina-kim-5796a6134
 
 - name: Min Namgung
   pic: 2
@@ -23,16 +23,26 @@ people:
   social:
     - title: home
       url: https://minnamgung.github.io/
-    - title: twitter
-      url: https://twitter.com/min__namgung/
+    - title: linkedin
+      url: https://www.linkedin.com/in/minnamgung0115
 
-- name:
-  pic:
-  position: SpatialW Board of Directors | Sponsor Chair (TBD)
+- name: Leeje Jang
+  pic: 3
+  position: SpatialW Board of Directors | Recruiting Chair
+  social:
+    - title: home
+      url: https://leejejang.github.io/
+    - title: linkedin
+      url: https://www.linkedin.com/in/leeje-jang/
 
-- name:
-  pic:
-  position: SpatialW Board of Directors | Publicity Chair (TBD)
+- name: Sofia Kirsanova
+  pic: 4
+  position: SpatialW Board of Directors | Publicity Chair
+  social:
+    - title: home
+      url: https://sofiakirsanova.github.io/
+    - title: linkedin
+      url: https://www.linkedin.com/in/sofia-kirsanova
 
 members:
 - name: Member
