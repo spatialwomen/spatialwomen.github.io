@@ -1,15 +1,16 @@
 <!-- Member Section -->
-<section id="member" class="bg-light-gray">
+<section id="member">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">SpatialW Members</h2>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
         </div>
         <div class="row">
             {% for member in site.members %}
             <div class="col-sm-3">
-                <h4>{{ member.name }}</h4>
+                <p>{{ member.name }}</p>
             </div>
             {% endfor %}
         </div>
