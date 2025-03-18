@@ -63,12 +63,56 @@ people:
       url:
 
 members:
-- name: Member
-- name: Member
-- name: Member
-- name: Member
-- name: Member
-- name: Member
+- name: Victoria Grace Ann
+  affiliation: Singapore Management Univ.
+  
+- name: Qian Cao
+  affiliation: Univ. of Georgia
+  
+- name: Theresa Chen
+  affiliation: Univ. of Minnesota - Twin Cities
+
+- name: Shang-Ling Hsu
+  affiliation: Univ. of Southern California
+
+- name: Sofia Kirsanova
+  affiliation: Univ. of Minnesota - Twin Cities
+
+- name: Ruochen Kong
+  affiliation: Emory Univ.
+
+- name: Areeg Mostafa
+  affiliation: Univ. of Minnesota - Twin Cities
+
+- name: Jiyoon Pyo
+  affiliation: Univ. of Minnesota - Twin Cities
+
+- name: Zhuocheng Shang
+  affiliation: Univ. of Riverside
+
+- name: Ana Uribe
+  affiliation: Univ. of Minnesota - Twin Cities
+
+- name: Jiaman Wu
+  affiliation: Univ. of California, Berkeley
+
+- name: Nemin Wu
+  affiliation: Univ. of Georgia
+  
+- name: Dr. Fatme Hachem 
+  affiliation: Univ. of Milan
+
+- name: Prof. Negin Alisoltani 
+  affiliation: Univ. Gustave Eiffel, Paris
+  
+- name: Prof. Taylor Anderson 
+  affiliation: George Mason Univ.
+  
+- name: Prof. Flora Salim 
+  affiliation: Univ. of New South Wales, Sydney
+  
+- name: Sophie Metzger
+  affiliation: Apple
 
 # Build settings
 markdown: kramdown
