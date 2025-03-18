@@ -35,15 +35,6 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/in/leeje-jang/
 
-- name:
-  pic:
-  position: SpatialW Board of Directors | Sponsorship Chair
-  social:
-    - title: home
-      url:
-    - title: linkedin
-      url:
-
 - name: Sofia Kirsanova
   pic: 4
   position: SpatialW Board of Directors | Publicity Chair
@@ -56,6 +47,15 @@ people:
 - name:
   pic:
   position: SpatialW Board of Directors | Publicity Chair
+  social:
+    - title: home
+      url:
+    - title: linkedin
+      url:
+
+- name:
+  pic:
+  position: SpatialW Board of Directors | Sponsorship Chair
   social:
     - title: home
       url:
