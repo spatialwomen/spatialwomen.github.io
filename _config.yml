@@ -10,7 +10,7 @@ description: An official website for SpatialW
 people:
 - name: Jina Kim
   pic: 1
-  position: SpatialW Board of Directors | General Chair, Webmaster
+  position: General Chair, Webmaster
   social:
     - title: home
       url: https://jina-kim.github.io/
@@ -19,7 +19,7 @@ people:
 
 - name: Min Namgung
   pic: 2
-  position: SpatialW Board of Directors | General Chair
+  position: General Chair
   social:
     - title: home
       url: https://minnamgung.github.io/
@@ -28,7 +28,7 @@ people:
 
 - name: Leeje Jang
   pic: 3
-  position: SpatialW Board of Directors | Recruitment Chair
+  position: Recruitment Chair
   social:
     - title: home
       url: https://leejejang.github.io/
@@ -37,7 +37,7 @@ people:
 
 - name: Sofia Kirsanova
   pic: 4
-  position: SpatialW Board of Directors | Publicity Chair
+  position: Publicity Chair
   social:
     - title: home
       url: https://sofiakirsanova.github.io/
@@ -46,7 +46,7 @@ people:
 
 - name:
   pic:
-  position: SpatialW Board of Directors | Publicity Chair
+  position: Publicity Chair
   social:
     - title: home
       url:
@@ -55,7 +55,7 @@ people:
 
 - name:
   pic:
-  position: SpatialW Board of Directors | Sponsorship Chair
+  position: Sponsorship Chair
   social:
     - title: home
       url:
