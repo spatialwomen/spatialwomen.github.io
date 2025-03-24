@@ -63,6 +63,63 @@ people:
       url:
 
 members:
+- name: Mariana Duarte
+  affiliation: Univ. Libre de Bruxelles 
+
+- name: Ketevan Gallagher
+  affiliation: Thomas Jefferson High School for Science and Technology
+
+- name: Jiawei Wei
+  affiliation: Nanjing Institute of Geography & Limnology, Chinese Academy of Sciences
+
+- name: Haoran Wang
+  affiliation: National Univ. of Singapore
+
+- name: Haoran Wang
+  affiliation: National Univ. of Singapore
+
+- name: Rowan Converse
+  affiliation: Univ. of New Mexico
+
+- name: Merve Polat Kayali
+  affiliation: Univ. of Glasgow
+
+- name: Betty Heller-Kaikov
+  affiliation: Technical Univ. of Munich
+
+- name: Haley Anne Schwartz
+  affiliation: Univ. of Barcelona 
+
+- name: Emma Von Hoene
+  affiliation: George Mason Univ.
+
+- name: Hrishikes Singh Yadav 
+  affiliation: Manipal Institute of Technology 
+
+- name: Blair Mirka
+  affiliation: Univ. of New Mexico 
+
+- name: Emily Hou
+  affiliation: Wellesley College
+
+- name: Kimberly Hsueh
+  affiliation: Wellesley College
+
+- name: Daniela Mariño Castro
+  affiliation: Univ. of Zurich 
+
+- name: Sidi Wu
+  affiliation: ETH Zurich
+
+- name: Iveel Tsogsuren
+  affiliation: Google
+
+- name: Annika Bonerath 
+  affiliation: University of Bonn
+  
+- name: Hui Zhang
+  affiliation: Univ. of Copenhagen
+
 - name: Victoria Grace Ann
   affiliation: Singapore Management Univ.
   
@@ -102,11 +159,20 @@ members:
 - name: Dr. Fatme Hachem 
   affiliation: Univ. of Milan
 
+- name: Dr. Yoohyung Joo
+  affiliation: Yonsei University
+  
+- name: Dr. Yao Sun
+  affiliation: Technical Univ. of Munich
+
 - name: Prof. Negin Alisoltani 
   affiliation: Univ. Gustave Eiffel, Paris
   
 - name: Prof. Taylor Anderson 
   affiliation: George Mason Univ.
+
+- name: Prof. Christine Bassem
+  affiliation: Wellesley College
   
 - name: Prof. Flora Salim 
   affiliation: Univ. of New South Wales, Sydney
