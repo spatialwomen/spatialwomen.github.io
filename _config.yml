@@ -53,14 +53,14 @@ people:
     - title: linkedin
       url:
 
-- name:
-  pic:
+- name: Shang-Ling (Kate) Hsu
+  pic: 5
   position: Sponsorship Chair
   social:
     - title: home
-      url:
+      url: https://ktxlh.github.io/
     - title: linkedin
-      url:
+      url: https://www.linkedin.com/in/kate-shang-ling-hsu
 
 members:
 - name: Mariana Duarte
