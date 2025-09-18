@@ -13,7 +13,7 @@
                     <!-- News items will be displayed here -->
                     <div class="news-item">
                         <div class="news-date">
-                            <span class="date-month">Sep</span>
+                            <span class="date-month">Sep.</span>
                             <span class="date-day">2025</span>
                         </div>
                         <div class="news-content">
@@ -38,6 +38,89 @@
                         </div>
                     </div>
                     
+                    <div class="news-item">
+                        <div class="news-date">
+                            <span class="date-month">Nov.</span>
+                            <span class="date-day">2024</span>
+                        </div>
+                        <div class="news-image">
+                            <img class="img-circle img-responsive" src="img/about/sigspatial2024.jpg" alt="DEI event @ ACM SIGSPATIAL '24">
+                        </div>
+                        <div class="news-content">
+                            <h4 class="news-title">DEI event @ ACM SIGSPATIAL '24</h4>
+                            <p class="text-muted">
+                                We co-organized the DEI event at ACM SIGSPATIAL '24 with the DEI conference co-chairs, involving 44 participants, including students, 3 organizers, 10 mentors assigned in advance, and researchers from academia, industry, and national labs. 
+                                We hosted a lunchtime event on Day 1, where mentors shared their experiences with junior researchers and answered their questions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="news-item">
+                        <div class="news-date">
+                            <span class="date-month">Nov.</span>
+                            <span class="date-day">2023</span>
+                        </div>
+                        <div class="news-image">
+                            <img class="img-circle img-responsive" src="img/about/sigspatial2023.jpg" alt="Networking session @ ACM SIGSPATIAL '23">
+                        </div>
+                        <div class="news-content">
+                            <h4 class="news-title">Networking session for underrepresented groups @ ACM SIGSPATIAL '23</h4>
+                            <p class="text-muted">
+                                We organized the second networking event at the ACM SIGSPATIAL '23 with 17 participants and three invited mentors, Prof. Li Xiong, Dr. Lexie Yang, and Prof. Christine Bassem. 
+                                We learned valuable networking strategies and heard about mentors' career development experiences and their Ph.D. lives.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="news-item">
+                        <div class="news-date">
+                            <span class="date-month">Apr.</span>
+                            <span class="date-day">2023</span>
+                        </div>
+                        <div class="news-image">
+                            <img class="img-circle img-responsive" src="img/about/sdm2023.jpeg" alt="Networking session @ SIAM SDM '23">
+                        </div>
+                        <div class="news-content">
+                            <h4 class="news-title">Networking session for underrepresented groups @ SIAM SDM '23</h4>
+                            <p class="text-muted">
+                                We organized a unique networking event aimed at promoting diversity in computer science. Dr. Diane Oyen from Los Alamos National Laboratory gave an invited talk and shared her insights on career development. 
+                                We had the opportunity to connect with researchers from diverse backgrounds and build meaningful professional relationships while supporting diversity in the field. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="news-item">
+                        <div class="news-date">
+                            <span class="date-month">Mar.</span>
+                            <span class="date-day">2023</span>
+                        </div>
+                        <div class="news-content">
+                            <h4 class="news-title">Invited Talk @ Thomas Jefferson Science and Technology High School</h4>
+                            <p class="text-muted">
+                                We gave a talk entitled "A Roadmap to Becoming a Computer Scientist" to an audience of 30 individuals at the Computer Club.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="news-item">
+                        <div class="news-date">
+                            <span class="date-month">Nov.</span>
+                            <span class="date-day">2022</span>
+                        </div>
+                        <div class="news-image">
+                            <img class="img-circle img-responsive" src="img/about/sigspatial2022.jpeg" alt="Women @ ACM SIGSPATIAL '22">
+                        </div>
+                        <div class="news-content">
+                            <h4 class="news-title">Women @ ACM SIGSPATIAL '22</h4>
+                            <p class="text-muted">
+                                We had the first networking event for female graduate students at ACM SIGSPATIAL '22, gathering at the public lounge at the Seattle Marriott Waterfront hotel. 
+                                We shared our experiences as female researchers from various computer science and geospatial communities.
+                            </p>
+                        </div>
+                    </div>
+
+
+
                     <!-- Template for additional news items -->
                     <!-- 
                     <div class="news-item">
@@ -94,6 +177,21 @@
             margin: 0 0 10px 0;
             color: #333;
         }
+
+        .news-image {
+            flex: 0 0 120px; /* fixed width for the image column */
+            margin-right: 20px; /* spacing between image and content */
+            display: flex;
+            align-items: center; /* vertically center the image with content */
+            justify-content: center;
+        }
+
+        .news-image img {
+            width: 100px; /* adjust image size */
+            height: 100px;
+            border-radius: 50%; /* keeps the circular shape */
+            object-fit: cover; /* ensures image scales nicely */
+        }
         
         @media (max-width: 768px) {
             .news-item {
@@ -105,5 +203,15 @@
                 margin-bottom: 15px;
                 margin-right: 0;
             }
+            .news-image {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+
+            .news-image img {
+                width: 80px;
+                height: 80px;
+            }
+
         }
     </style>

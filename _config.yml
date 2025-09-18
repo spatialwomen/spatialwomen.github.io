@@ -37,21 +37,12 @@ people:
 
 - name: Sofia Kirsanova
   pic: 4
-  position: Publicity Chair
+  position: Publicity Chair, Webmaster
   social:
     - title: home
       url: https://sofiakirsanova.github.io/
     - title: linkedin
       url: https://www.linkedin.com/in/sofia-kirsanova
-
-- name:
-  pic:
-  position: Publicity Chair
-  social:
-    - title: home
-      url:
-    - title: linkedin
-      url:
 
 - name: Shang-Ling (Kate) Hsu
   pic: 5
