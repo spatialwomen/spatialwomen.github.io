@@ -1,0 +1,93 @@
+<!-- News Section -->
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">News</h2>
+                    <h3 class="section-subheading text-muted">Latest updates and announcements from SpatialW</h3>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- News items will be displayed here -->
+                    <div class="news-item">
+                        <div class="news-date">
+                            <span class="date-month">Dec</span>
+                            <span class="date-day">2024</span>
+                        </div>
+                        <div class="news-content">
+                            <h4 class="news-title">Welcome to SpatialW News!</h4>
+                            <p class="text-muted">Stay tuned for the latest updates about our networking events, mentoring opportunities, and community activities.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Template for additional news items -->
+                    <!-- 
+                    <div class="news-item">
+                        <div class="news-date">
+                            <span class="date-month">Month</span>
+                            <span class="date-day">Year</span>
+                        </div>
+                        <div class="news-content">
+                            <h4 class="news-title">News Title</h4>
+                            <p class="text-muted">News content goes here...</p>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .news-item {
+            display: flex;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-left: 3px solid #fed136;
+            background-color: #f8f9fa;
+        }
+        
+        .news-date {
+            flex: 0 0 80px;
+            text-align: center;
+            margin-right: 20px;
+        }
+        
+        .date-month {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fed136;
+            text-transform: uppercase;
+        }
+        
+        .date-day {
+            display: block;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .news-content {
+            flex: 1;
+        }
+        
+        .news-title {
+            margin: 0 0 10px 0;
+            color: #333;
+        }
+        
+        @media (max-width: 768px) {
+            .news-item {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .news-date {
+                margin-bottom: 15px;
+                margin-right: 0;
+            }
+        }
+    </style>
