@@ -47,6 +47,11 @@ people:
 - name: Shelly Xie
   pic: 5
   position: Sponsorship Chair
+  social:
+  - title: home
+    url: https://shaolin-x.github.io/
+  - title: linkedin
+    url: https://www.linkedin.com/in/shellyxie28/
 
 members:
 - name: Mariana Duarte
